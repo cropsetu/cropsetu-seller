@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "FarmEasy Seller",
+    "slug": "farmeasy-seller",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E65100"
+    },
+    "scheme": "farmeasy-seller",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.farmeasy.seller"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#E65100"
+      },
+      "package": "com.farmeasy.seller",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "react-native-compressor",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "FarmEasy Seller needs photo library access to upload product images."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fd61013c-634d-460e-a6a5-55429c35d2ec"
+      }
+    },
+    "owner": "shubhamyeljalebcs",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fd61013c-634d-460e-a6a5-55429c35d2ec"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Secrets — NEVER commit
+.env
+.env.*
+!.env.example
+
+# Expo / React Native build artifacts
+.expo/
+.expo-shared/
+dist/
+build/
+web-build/
+
+# Native build output
+android/app/build/
+android/build/
+android/.gradle/
+ios/build/
+ios/Pods/
+ios/*.xcworkspace/xcuserdata/
+
+# OS / editor junk
+.DS_Store
+*.log
+.vscode/
+.idea/
