@@ -46,15 +46,12 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "fd61013c-634d-460e-a6a5-55429c35d2ec"
+        "projectId": "REPLACE_AFTER_EAS_INIT"
       }
     },
-    "owner": "shubhamyeljalebcs",
+    "owner": "cropsetu",
     "runtimeVersion": {
       "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/fd61013c-634d-460e-a6a5-55429c35d2ec"
     }
   }
 }
